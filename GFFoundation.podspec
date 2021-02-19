@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'GFFoundation/Classes/**/*'
+  s.source_files = 'GFFoundation/Classes/**/*.{h,m}'
   
   s.subspec 'Bridge' do |ss|
   ss.source_files = 'GFFoundation/Classes/Bridge/*.{h,m}'
