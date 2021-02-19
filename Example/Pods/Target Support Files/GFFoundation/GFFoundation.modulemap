@@ -1,0 +1,6 @@
+framework module GFFoundation {
+  umbrella header "GFFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

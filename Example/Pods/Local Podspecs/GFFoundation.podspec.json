@@ -1,0 +1,32 @@
+{
+  "name": "GFFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of GFFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stevenstrive/Specs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stevenstrive": "474479892@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/stevenstrive/GFFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "GFFoundation/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Bridge",
+      "source_files": "GFFoundation/Classes/Bridge/*.{h,m}"
+    },
+    {
+      "name": "Test",
+      "source_files": "GFFoundation/Classes/Test/*.{h,m}"
+    }
+  ]
+}

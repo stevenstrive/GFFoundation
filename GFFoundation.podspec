@@ -21,16 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/stevenstrive/GFFoundation'
+  s.homepage         = 'https://github.com/stevenstrive/Specs'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'stevenstrive' => '474479892@qq.com' }
   s.source           = { :git => 'https://github.com/stevenstrive/GFFoundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'GFFoundation/Classes/**/*'
+  
+  s.subspec 'Bridge' do |ss|
+  ss.source_files = 'GFFoundation/Classes/Bridge/*.{h,m}'
+  end
+  
+  s.subspec 'Test' do |ss|
+  ss.source_files = 'GFFoundation/Classes/Test/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'GFFoundation' => ['GFFoundation/Assets/*.png']
