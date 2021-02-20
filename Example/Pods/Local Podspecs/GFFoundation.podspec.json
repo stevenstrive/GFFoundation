@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "GFFoundation/Classes/NEFoundation.h",
+  "source_files": "GFFoundation/Classes/**/*",
   "libraries": [
     "resolv",
     "xml2",
@@ -26,7 +26,6 @@
     "c++",
     "z"
   ],
-  "public_header_files": "GFFoundation/Classes/NEFoundation.h",
   "frameworks": [
     "UIKit",
     "MapKit"
@@ -65,31 +64,5 @@
     "SSZipArchive": [
 
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Bridge",
-      "source_files": "GFFoundation/Classes/Bridge/*.{h,m}"
-    },
-    {
-      "name": "Extensions",
-      "source_files": "GFFoundation/Classes/Extensions/*.{h,m}"
-    },
-    {
-      "name": "Model",
-      "source_files": "GFFoundation/Classes/Model/*.{h,m}"
-    },
-    {
-      "name": "Network",
-      "source_files": "GFFoundation/Classes/Network/*.{h,m}"
-    },
-    {
-      "name": "UI",
-      "source_files": "GFFoundation/Classes/UI/*.{h,m}"
-    },
-    {
-      "name": "Utils",
-      "source_files": "GFFoundation/Classes/Utils/*.{h,m}"
-    }
-  ]
+  }
 }

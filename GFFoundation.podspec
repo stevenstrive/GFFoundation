@@ -30,39 +30,27 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'GFFoundation/Classes/NEFoundation.h'
+  s.source_files = 'GFFoundation/Classes/**/*'
   
   s.library           = 'resolv','xml2','sqlite3.0','c++','z'
   
-  s.subspec 'Bridge' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Bridge/*'
-  end
-
-  s.subspec 'Extensions' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Extensions/*'
-  end
-  
-  s.subspec 'Model' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Model/*'
-  end
-  
-  s.subspec 'Network' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Network/*'
-  end
-  
-  s.subspec 'UI' do |ss|
-      ss.source_files = 'GFFoundation/Classes/UI/*'
-  end
-  
-  s.subspec 'Utils' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Utils/*'
-  end
+#  s.subspec 'Bridge' do |ss|
+#      ss.source_files = 'GFFoundation/Classes/Bridge/*'
+#  end
+#
+#  s.subspec 'WNHYLaunch' do |ss|
+#      ss.source_files = 'GFFoundation/Classes/WNHYLaunch/*'
+#  end
+#
+#  s.subspec 'Login' do |ss|
+#      ss.source_files = 'GFFoundation/Classes/Login/*'
+#  end
   
   # s.resource_bundles = {
   #   'GFFoundation' => ['GFFoundation/Assets/*.png']
   # }
 
-  s.public_header_files = 'GFFoundation/Classes/NEFoundation.h'
+#  s.public_header_files = 'GFFoundation/Classes/NEFoundation.h'
       s.frameworks = 'UIKit', 'MapKit'
       s.dependency 'MJExtension'
       s.dependency 'SDWebImage'
