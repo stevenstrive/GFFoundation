@@ -33,11 +33,11 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'GFFoundation/Classes/**/*.{h,m}'
   
   s.subspec 'Bridge' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Bridge/*'
+      ss.source_files = 'GFFoundation/Classes/Bridge/*.{h,m}'
   end
   
   s.subspec 'Test' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Test/*'
+      ss.source_files = 'GFFoundation/Classes/Test/*.{h,m}'
   end
   
   # s.resource_bundles = {
