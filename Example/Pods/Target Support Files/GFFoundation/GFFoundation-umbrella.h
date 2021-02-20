@@ -15,11 +15,6 @@
 #import "WebViewJavascriptBridge_JS.h"
 #import "WKWebViewJavascriptBridge.h"
 #import "GFViewController.h"
-#import "GFAppDelegate.h"
-#import "WebViewJavascriptBridgeBase.h"
-#import "WebViewJavascriptBridge_JS.h"
-#import "WKWebViewJavascriptBridge.h"
-#import "GFViewController.h"
 
 FOUNDATION_EXPORT double GFFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char GFFoundationVersionString[];
