@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C4C7D4744095F09F22E79ED4248136C /* NETest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 991ABC3166A14D554C970DED9CAC824D /* NETest1.m */; };
+		016BA828145AC82861597C3AC23A38E2 /* GFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD0E70AC86BC092972F97D279AEC5D /* GFFoundation-dummy.m */; };
+		11E0BB77421B962FCEF1B824BF7CABE9 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB8DB3A17DE0219C7F0F06D751BA191 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14ED28D4BE45FB3B95C3F4EC3644D2D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		16C323E65D10EB1C4AA3D1025522058B /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6D5099C5D81190CD72BAD0BBCC9229 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29599DF31BF7C1292CBA6896CCFEE5FC /* GFFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F4E9B4877879A712EAB2AA70495FC1 /* GFFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BA12639E5926131427B0173CEC130DE /* GFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F516C43C09C04E06BF897160060802A /* GFFoundation-dummy.m */; };
+		2B666C46D56BA41FC3EC708ED0F774F2 /* GFFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3E5D2C438C92395E3ECDE8430A7902 /* GFFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB2FEE27C020BC2117A75EDD1D722A3 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7746BAF5743CB8A1FD701D29272978 /* WebViewJavascriptBridge_JS.m */; };
 		2D73738B6885A07F015921337ED33D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		58C2B806646F1DB533074124AFF45038 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 2967EA064C1A4742327968D0D909B236 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		670C2166EF5F95D3F7FAA0DAE9A2D108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6A806A3D2BAEADD3BAB8BF8F44A351C5 /* Pods-GFFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F7752241CB994CDBA9E08EEDDE1C90 /* Pods-GFFoundation_Example-dummy.m */; };
-		7637EB1102799EC9B1014F3403FB3AC7 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A2F70D7BE9EA8E3DE80666945826E /* WebViewJavascriptBridgeBase.m */; };
+		6DB37BEAF95E70B8A46F6104CC801223 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E8D88AC1EE98C59D26EC24F2C8EC0C /* WebViewJavascriptBridgeBase.m */; };
 		77BF89235C9BA6F8B811CA5CCAC7AB23 /* Pods-GFFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 722DEA2C5CBD572949368DB17723B94D /* Pods-GFFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B2AC9315E99D1AC0C9704740589E9C /* NETest1.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B926D098856EC915714DA36A34D09EB /* NETest1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		857595A2C899DD4E24C75E163CC5F60A /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = C776E23E3FDD2DF3E9D9DEB569FFEB09 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7531D3B130B7FE079F44EED055BB28 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A447644C49044AE1DB83907255D603CA /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91191B380ACCD18D6637F5815E04E7DB /* NETest1.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F5C42CB1C3A7406443FA7F5FAEFE46 /* NETest1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A51FCCF22FC3C40E3FF703AF2D43896B /* Pods-GFFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C1C46A1E470AD03D57A317BFFB5F0E /* Pods-GFFoundation_Tests-dummy.m */; };
-		B7195076C79D53DAB92ACA8F1EC645A5 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = E91D5684F41C9724204E15FF6D0A6C63 /* WebViewJavascriptBridge_JS.m */; };
-		C7DCC12A946435335E1E5551C45542D2 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1CE91E9C723C464EDEC75C19A1EF7B /* WKWebViewJavascriptBridge.m */; };
+		A5ABB016671E982DA09F85990A3928D2 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F84169B56820FD07F13E47F77092A5 /* WKWebViewJavascriptBridge.m */; };
+		C250AAD733E42F65D836079FA19EBC1E /* NETest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DF82B2EF2DC13024242543CC37197F /* NETest1.m */; };
+		D4EF611AA60F01AA673C6FAFF3B26377 /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 61407115C1303A96F81743B66C897DA8 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E76AB0D95595D9B3514479EA6022CF90 /* Pods-GFFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0AB97E857A76DC5DE387EFEAB10F85 /* Pods-GFFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F28025D6FEBB36C3ABAB5556C2EFCE3F /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D9257F66F8F59FE33B8B81F68E79EB /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2B11C8707786C76445E1CF50E7B2679 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 156540799A8D9C3BCA3525891655A32C /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,47 +45,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		156540799A8D9C3BCA3525891655A32C /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		2A1CE91E9C723C464EDEC75C19A1EF7B /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		2A6A3BBE36FB22A032D2F8052F6C0D85 /* GFFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFFoundation-prefix.pch"; sourceTree = "<group>"; };
-		2E3A2F70D7BE9EA8E3DE80666945826E /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		0A60EEF7D92F2F1510B258E35662E0AB /* GFFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFFoundation-prefix.pch"; sourceTree = "<group>"; };
+		24BD0E70AC86BC092972F97D279AEC5D /* GFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GFFoundation-dummy.m"; sourceTree = "<group>"; };
+		2839FBBD247F193033064292232D80DE /* GFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFFoundation.release.xcconfig; sourceTree = "<group>"; };
+		2967EA064C1A4742327968D0D909B236 /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Header.h; path = GFFoundation/Classes/Test/Header.h; sourceTree = "<group>"; };
 		2E61A3783AF55B816BA86B8DE8CBFD75 /* Pods-GFFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GFFoundation_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3AD6D9203DCCDFCD9725CB3941A8EC64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		34DF82B2EF2DC13024242543CC37197F /* NETest1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NETest1.m; path = GFFoundation/Classes/Test/NETest1.m; sourceTree = "<group>"; };
 		403BBD4D2E287FED9EBEE9A0EC9E4759 /* Pods-GFFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44F7752241CB994CDBA9E08EEDDE1C90 /* Pods-GFFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		4C3F3AE6A7476A206942E7BCFF0BCA19 /* Pods-GFFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4D366A5161F26B3D39751D626BEB56EB /* Pods_GFFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GFFoundation_Example.framework; path = "Pods-GFFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B926D098856EC915714DA36A34D09EB /* NETest1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NETest1.h; sourceTree = "<group>"; };
+		597082B4C93AB5081707C05299C10CF3 /* GFFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GFFoundation-Info.plist"; sourceTree = "<group>"; };
 		5F0AB97E857A76DC5DE387EFEAB10F85 /* Pods-GFFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
-		6B6D5099C5D81190CD72BAD0BBCC9229 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		61407115C1303A96F81743B66C897DA8 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = GFFoundation/Classes/Bridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		69F84169B56820FD07F13E47F77092A5 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = GFFoundation/Classes/Bridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		6C5EC4F42B4F258661A4D47FC0C93DAC /* GFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		6CB8DB3A17DE0219C7F0F06D751BA191 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = GFFoundation/Classes/Bridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		6E98BFAA34B7E8E7FB69C67E6032A684 /* GFFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GFFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		713F0EBA7275651BAD44A465AA14F8F0 /* GFFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GFFoundation.framework; path = GFFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		722DEA2C5CBD572949368DB17723B94D /* Pods-GFFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GFFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		74F4E9B4877879A712EAB2AA70495FC1 /* GFFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFFoundation-umbrella.h"; sourceTree = "<group>"; };
-		79856FF393DE8AFAA817ED938E23A504 /* GFFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		74039857F9579B517AC64BD008541CCD /* GFFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GFFoundation.modulemap; sourceTree = "<group>"; };
 		7C4D392B79543A8AE6AC9EBEBABB2555 /* Pods-GFFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GFFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		8B29BA9903AADA85164697A3D44A8957 /* Pods-GFFoundation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFFoundation_Tests-Info.plist"; sourceTree = "<group>"; };
 		8CB59D469C8A87644071559F89280EF0 /* Pods-GFFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E7746BAF5743CB8A1FD701D29272978 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = GFFoundation/Classes/Bridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		96E7D47C3D7746E4F7302A072C586604 /* Pods-GFFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		991ABC3166A14D554C970DED9CAC824D /* NETest1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NETest1.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F516C43C09C04E06BF897160060802A /* GFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GFFoundation-dummy.m"; sourceTree = "<group>"; };
 		A12C8DCA83AE100910AEF375E08CD7A5 /* Pods-GFFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GFFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A392F800CD26F5133F80D64634D7E636 /* GFFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GFFoundation.release.xcconfig; sourceTree = "<group>"; };
+		A2E8D88AC1EE98C59D26EC24F2C8EC0C /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = GFFoundation/Classes/Bridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		A447644C49044AE1DB83907255D603CA /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = GFFoundation/Classes/Bridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		A5C1C46A1E470AD03D57A317BFFB5F0E /* Pods-GFFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GFFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		A66EBB43232A5EDC1C835D935FAE96E1 /* Pods-GFFoundation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFFoundation_Example-Info.plist"; sourceTree = "<group>"; };
-		ACA4B8F95F1234090794D80C9D479CFC /* GFFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GFFoundation.modulemap; sourceTree = "<group>"; };
-		B7D9257F66F8F59FE33B8B81F68E79EB /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
-		C776E23E3FDD2DF3E9D9DEB569FFEB09 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		CA40547C3901F142E47B9EDE6447CD26 /* Pods-GFFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAFEB8E81310782BE33173F66909326D /* Pods-GFFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GFFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1791E5DC7B44DE8830EB7846D922326 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D3FC874AF51F9B48751B2777E46C2A6B /* Pods-GFFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GFFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D44657BA94A6358EE8E839E855787387 /* Pods-GFFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GFFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF440583F720B5FD73B2F11AD10FC366 /* Pods_GFFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GFFoundation_Tests.framework; path = "Pods-GFFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E91D5684F41C9724204E15FF6D0A6C63 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
-		EA16C96CED8D62427BE181610C7EECF0 /* GFFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GFFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EBDA52C549F22BB4293F8F63D8C29F8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		ED60406194D065A8F47FE0985C0EDB16 /* GFFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GFFoundation-Info.plist"; sourceTree = "<group>"; };
+		F0F5C42CB1C3A7406443FA7F5FAEFE46 /* NETest1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NETest1.h; path = GFFoundation/Classes/Test/NETest1.h; sourceTree = "<group>"; };
+		FC3E5D2C438C92395E3ECDE8430A7902 /* GFFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GFFoundation-umbrella.h"; sourceTree = "<group>"; };
+		FD3D9A669C2D98E205646691F07A6883 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,18 +125,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0C9699A79AB199B9F3D46D678B2F32A0 /* GFFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				28F840A0286A075F45E7431A533761A1 /* Bridge */,
-				BC9EBCC09579B7AFDB11AC8B57606A2A /* Pod */,
-				20271DDA512CCF6A80A4632B7CA03710 /* Support Files */,
-				E60D6A9B58B252B0EC8FB574FB78D07F /* Test */,
-			);
-			name = GFFoundation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		1656D1237FEAA07204E5C0F9C5A19B12 /* Pods-GFFoundation_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,43 +158,39 @@
 			path = "Target Support Files/Pods-GFFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		20271DDA512CCF6A80A4632B7CA03710 /* Support Files */ = {
+		6D54D317D2ADD1C5F1481B6D78478F6B /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				ACA4B8F95F1234090794D80C9D479CFC /* GFFoundation.modulemap */,
-				9F516C43C09C04E06BF897160060802A /* GFFoundation-dummy.m */,
-				ED60406194D065A8F47FE0985C0EDB16 /* GFFoundation-Info.plist */,
-				2A6A3BBE36FB22A032D2F8052F6C0D85 /* GFFoundation-prefix.pch */,
-				74F4E9B4877879A712EAB2AA70495FC1 /* GFFoundation-umbrella.h */,
-				79856FF393DE8AFAA817ED938E23A504 /* GFFoundation.debug.xcconfig */,
-				A392F800CD26F5133F80D64634D7E636 /* GFFoundation.release.xcconfig */,
+				2967EA064C1A4742327968D0D909B236 /* Header.h */,
+				F0F5C42CB1C3A7406443FA7F5FAEFE46 /* NETest1.h */,
+				34DF82B2EF2DC13024242543CC37197F /* NETest1.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		83DB2D74D6C8E56402FADCB76CB071F6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6E98BFAA34B7E8E7FB69C67E6032A684 /* GFFoundation.podspec */,
+				D1791E5DC7B44DE8830EB7846D922326 /* LICENSE */,
+				FD3D9A669C2D98E205646691F07A6883 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		90532E0CAC843C852769FD00C7E15DC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74039857F9579B517AC64BD008541CCD /* GFFoundation.modulemap */,
+				24BD0E70AC86BC092972F97D279AEC5D /* GFFoundation-dummy.m */,
+				597082B4C93AB5081707C05299C10CF3 /* GFFoundation-Info.plist */,
+				0A60EEF7D92F2F1510B258E35662E0AB /* GFFoundation-prefix.pch */,
+				FC3E5D2C438C92395E3ECDE8430A7902 /* GFFoundation-umbrella.h */,
+				6C5EC4F42B4F258661A4D47FC0C93DAC /* GFFoundation.debug.xcconfig */,
+				2839FBBD247F193033064292232D80DE /* GFFoundation.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GFFoundation";
-			sourceTree = "<group>";
-		};
-		28F840A0286A075F45E7431A533761A1 /* Bridge */ = {
-			isa = PBXGroup;
-			children = (
-				B7D9257F66F8F59FE33B8B81F68E79EB /* WebViewJavascriptBridge_JS.h */,
-				E91D5684F41C9724204E15FF6D0A6C63 /* WebViewJavascriptBridge_JS.m */,
-				C776E23E3FDD2DF3E9D9DEB569FFEB09 /* WebViewJavascriptBridgeBase.h */,
-				2E3A2F70D7BE9EA8E3DE80666945826E /* WebViewJavascriptBridgeBase.m */,
-				6B6D5099C5D81190CD72BAD0BBCC9229 /* WKWebViewJavascriptBridge.h */,
-				2A1CE91E9C723C464EDEC75C19A1EF7B /* WKWebViewJavascriptBridge.m */,
-			);
-			name = Bridge;
-			path = GFFoundation/Classes/Bridge;
-			sourceTree = "<group>";
-		};
-		BC9EBCC09579B7AFDB11AC8B57606A2A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EA16C96CED8D62427BE181610C7EECF0 /* GFFoundation.podspec */,
-				3AD6D9203DCCDFCD9725CB3941A8EC64 /* LICENSE */,
-				EBDA52C549F22BB4293F8F63D8C29F8B /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -220,7 +204,7 @@
 		CBC8A9895351E082871D80CCD65C78C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0C9699A79AB199B9F3D46D678B2F32A0 /* GFFoundation */,
+				D1D432800F4F666A5CEF1549D6874B18 /* GFFoundation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -236,12 +220,37 @@
 			);
 			sourceTree = "<group>";
 		};
+		D1D432800F4F666A5CEF1549D6874B18 /* GFFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				DFF46B393BF091031785AD1A3DF4F7F7 /* Bridge */,
+				83DB2D74D6C8E56402FADCB76CB071F6 /* Pod */,
+				90532E0CAC843C852769FD00C7E15DC5 /* Support Files */,
+				6D54D317D2ADD1C5F1481B6D78478F6B /* Test */,
+			);
+			name = GFFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF46B393BF091031785AD1A3DF4F7F7 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				6CB8DB3A17DE0219C7F0F06D751BA191 /* WebViewJavascriptBridge_JS.h */,
+				8E7746BAF5743CB8A1FD701D29272978 /* WebViewJavascriptBridge_JS.m */,
+				A447644C49044AE1DB83907255D603CA /* WebViewJavascriptBridgeBase.h */,
+				A2E8D88AC1EE98C59D26EC24F2C8EC0C /* WebViewJavascriptBridgeBase.m */,
+				61407115C1303A96F81743B66C897DA8 /* WKWebViewJavascriptBridge.h */,
+				69F84169B56820FD07F13E47F77092A5 /* WKWebViewJavascriptBridge.m */,
+			);
+			name = Bridge;
 			sourceTree = "<group>";
 		};
 		E34C1B72AEDC9F6D419D51B5700C1BA6 /* Products */ = {
@@ -254,30 +263,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E60D6A9B58B252B0EC8FB574FB78D07F /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				156540799A8D9C3BCA3525891655A32C /* Header.h */,
-				5B926D098856EC915714DA36A34D09EB /* NETest1.h */,
-				991ABC3166A14D554C970DED9CAC824D /* NETest1.m */,
-			);
-			name = Test;
-			path = GFFoundation/Classes/Test;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AD85CE1E3FA7490E733FF573813F365F /* Headers */ = {
+		6A64AD6553BA7B90FFE21192B9892BB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29599DF31BF7C1292CBA6896CCFEE5FC /* GFFoundation-umbrella.h in Headers */,
-				F2B11C8707786C76445E1CF50E7B2679 /* Header.h in Headers */,
-				79B2AC9315E99D1AC0C9704740589E9C /* NETest1.h in Headers */,
-				F28025D6FEBB36C3ABAB5556C2EFCE3F /* WebViewJavascriptBridge_JS.h in Headers */,
-				857595A2C899DD4E24C75E163CC5F60A /* WebViewJavascriptBridgeBase.h in Headers */,
-				16C323E65D10EB1C4AA3D1025522058B /* WKWebViewJavascriptBridge.h in Headers */,
+				2B666C46D56BA41FC3EC708ED0F774F2 /* GFFoundation-umbrella.h in Headers */,
+				58C2B806646F1DB533074124AFF45038 /* Header.h in Headers */,
+				91191B380ACCD18D6637F5815E04E7DB /* NETest1.h in Headers */,
+				11E0BB77421B962FCEF1B824BF7CABE9 /* WebViewJavascriptBridge_JS.h in Headers */,
+				7D7531D3B130B7FE079F44EED055BB28 /* WebViewJavascriptBridgeBase.h in Headers */,
+				D4EF611AA60F01AA673C6FAFF3B26377 /* WKWebViewJavascriptBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +340,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D06D8B13C40BEFC5AA5BF505F315701 /* Build configuration list for PBXNativeTarget "GFFoundation" */;
 			buildPhases = (
-				AD85CE1E3FA7490E733FF573813F365F /* Headers */,
-				FCAF2EFBF0E1B78B319DD256E1F03E3C /* Sources */,
+				6A64AD6553BA7B90FFE21192B9892BB9 /* Headers */,
+				41270AA41F591D40EECE014C4C87C8F7 /* Sources */,
 				70248D3C962A40E3883211EA99652155 /* Frameworks */,
 				BC7BADB5BA556C693816CD68232771F9 /* Resources */,
 			);
@@ -410,6 +408,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		41270AA41F591D40EECE014C4C87C8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016BA828145AC82861597C3AC23A38E2 /* GFFoundation-dummy.m in Sources */,
+				C250AAD733E42F65D836079FA19EBC1E /* NETest1.m in Sources */,
+				2CB2FEE27C020BC2117A75EDD1D722A3 /* WebViewJavascriptBridge_JS.m in Sources */,
+				6DB37BEAF95E70B8A46F6104CC801223 /* WebViewJavascriptBridgeBase.m in Sources */,
+				A5ABB016671E982DA09F85990A3928D2 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF97D30A7F4A70CA5E46C77CA1E8264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,18 +433,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51FCCF22FC3C40E3FF703AF2D43896B /* Pods-GFFoundation_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCAF2EFBF0E1B78B319DD256E1F03E3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BA12639E5926131427B0173CEC130DE /* GFFoundation-dummy.m in Sources */,
-				0C4C7D4744095F09F22E79ED4248136C /* NETest1.m in Sources */,
-				B7195076C79D53DAB92ACA8F1EC645A5 /* WebViewJavascriptBridge_JS.m in Sources */,
-				7637EB1102799EC9B1014F3403FB3AC7 /* WebViewJavascriptBridgeBase.m in Sources */,
-				C7DCC12A946435335E1E5551C45542D2 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +456,7 @@
 /* Begin XCBuildConfiguration section */
 		21F0F4962C324D822A5EB419D7BCAF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79856FF393DE8AFAA817ED938E23A504 /* GFFoundation.debug.xcconfig */;
+			baseConfigurationReference = 6C5EC4F42B4F258661A4D47FC0C93DAC /* GFFoundation.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -623,7 +621,7 @@
 		};
 		5434FBE3366D633802D4053A009EB863 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A392F800CD26F5133F80D64634D7E636 /* GFFoundation.release.xcconfig */;
+			baseConfigurationReference = 2839FBBD247F193033064292232D80DE /* GFFoundation.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

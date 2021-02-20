@@ -18,15 +18,14 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "GFFoundation/Classes/**/*.{h,m}",
   "subspecs": [
     {
       "name": "Bridge",
-      "source_files": "GFFoundation/Classes/Bridge/*.{h,m}"
+      "source_files": "GFFoundation/Classes/Bridge/*"
     },
     {
       "name": "Test",
-      "source_files": "GFFoundation/Classes/Test/*.{h,m}"
+      "source_files": "GFFoundation/Classes/Test/*"
     }
   ]
 }
