@@ -34,17 +34,17 @@ TODO: Add long description of the pod here.
   
   s.library           = 'resolv','xml2','sqlite3.0','c++','z'
   
-#  s.subspec 'Bridge' do |ss|
-#      ss.source_files = 'GFFoundation/Classes/Bridge/*'
-#  end
-#
-#  s.subspec 'WNHYLaunch' do |ss|
-#      ss.source_files = 'GFFoundation/Classes/WNHYLaunch/*'
-#  end
-#
-#  s.subspec 'Login' do |ss|
-#      ss.source_files = 'GFFoundation/Classes/Login/*'
-#  end
+  s.subspec 'Bridge' do |ss|
+      ss.source_files = 'GFFoundation/Classes/Bridge/*'
+  end
+
+  s.subspec 'View' do |ss|
+      ss.source_files = 'GFFoundation/Classes/View/*'
+  end
+
+  s.subspec 'App' do |ss|
+      ss.source_files = 'GFFoundation/Classes/App/*'
+  end
   
   # s.resource_bundles = {
   #   'GFFoundation' => ['GFFoundation/Assets/*.png']
