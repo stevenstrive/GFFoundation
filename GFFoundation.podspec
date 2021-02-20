@@ -30,21 +30,49 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-#  s.source_files = 'GFFoundation/Classes/**/*.{h,m}'
+  s.source_files = 'GFFoundation/Classes/NEFoundation.h'
+  
+  s.library           = 'resolv','xml2','sqlite3.0','c++','z'
   
   s.subspec 'Bridge' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Bridge/*.{h,m}'
+      ss.source_files = 'GFFoundation/Classes/Bridge/*'
+  end
+
+  s.subspec 'Extensions' do |ss|
+      ss.source_files = 'GFFoundation/Classes/Extensions/*'
   end
   
-  s.subspec 'Test' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Test/*.{h,m}'
+  s.subspec 'Model' do |ss|
+      ss.source_files = 'GFFoundation/Classes/Model/*'
+  end
+  
+  s.subspec 'Network' do |ss|
+      ss.source_files = 'GFFoundation/Classes/Network/*'
+  end
+  
+  s.subspec 'UI' do |ss|
+      ss.source_files = 'GFFoundation/Classes/UI/*'
+  end
+  
+  s.subspec 'Utils' do |ss|
+      ss.source_files = 'GFFoundation/Classes/Utils/*'
   end
   
   # s.resource_bundles = {
   #   'GFFoundation' => ['GFFoundation/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'GFFoundation/Classes/NEFoundation.h'
+      s.frameworks = 'UIKit', 'MapKit'
+      s.dependency 'MJExtension'
+      s.dependency 'SDWebImage'
+      s.dependency 'SDWebImage/GIF'
+      s.dependency 'AFNetworking', '4.0.1'
+      s.dependency 'MJRefresh'
+      s.dependency 'Masonry'
+      s.dependency 'IQKeyboardManager'
+      s.dependency 'SensorsAnalyticsSDK'
+      s.dependency 'MBProgressHUD', '1.1.0'
+      s.dependency 'ReactiveCocoa', '2.0'
+      s.dependency 'SSZipArchive'
 end

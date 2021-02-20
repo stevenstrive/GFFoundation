@@ -18,14 +18,78 @@
   "platforms": {
     "ios": "11.0"
   },
+  "source_files": "GFFoundation/Classes/NEFoundation.h",
+  "libraries": [
+    "resolv",
+    "xml2",
+    "sqlite3.0",
+    "c++",
+    "z"
+  ],
+  "public_header_files": "GFFoundation/Classes/NEFoundation.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "MJExtension": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "SDWebImage/GIF": [
+
+    ],
+    "AFNetworking": [
+      "4.0.1"
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "SensorsAnalyticsSDK": [
+
+    ],
+    "MBProgressHUD": [
+      "1.1.0"
+    ],
+    "ReactiveCocoa": [
+      "2.0"
+    ],
+    "SSZipArchive": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "Bridge",
-      "source_files": "GFFoundation/Classes/Bridge/*"
+      "source_files": "GFFoundation/Classes/Bridge/*.{h,m}"
     },
     {
-      "name": "Test",
-      "source_files": "GFFoundation/Classes/Test/*"
+      "name": "Extensions",
+      "source_files": "GFFoundation/Classes/Extensions/*.{h,m}"
+    },
+    {
+      "name": "Model",
+      "source_files": "GFFoundation/Classes/Model/*.{h,m}"
+    },
+    {
+      "name": "Network",
+      "source_files": "GFFoundation/Classes/Network/*.{h,m}"
+    },
+    {
+      "name": "UI",
+      "source_files": "GFFoundation/Classes/UI/*.{h,m}"
+    },
+    {
+      "name": "Utils",
+      "source_files": "GFFoundation/Classes/Utils/*.{h,m}"
     }
   ]
 }

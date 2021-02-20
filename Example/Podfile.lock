@@ -1,19 +1,169 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FLAnimatedImage (1.0.15)
   - GFFoundation (0.1.0):
+    - AFNetworking (= 4.0.1)
     - GFFoundation/Bridge (= 0.1.0)
-    - GFFoundation/Test (= 0.1.0)
-  - GFFoundation/Bridge (0.1.0)
-  - GFFoundation/Test (0.1.0)
+    - GFFoundation/Extensions (= 0.1.0)
+    - GFFoundation/Model (= 0.1.0)
+    - GFFoundation/Network (= 0.1.0)
+    - GFFoundation/UI (= 0.1.0)
+    - GFFoundation/Utils (= 0.1.0)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - GFFoundation/Bridge (0.1.0):
+    - AFNetworking (= 4.0.1)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - GFFoundation/Extensions (0.1.0):
+    - AFNetworking (= 4.0.1)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - GFFoundation/Model (0.1.0):
+    - AFNetworking (= 4.0.1)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - GFFoundation/Network (0.1.0):
+    - AFNetworking (= 4.0.1)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - GFFoundation/UI (0.1.0):
+    - AFNetworking (= 4.0.1)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - GFFoundation/Utils (0.1.0):
+    - AFNetworking (= 4.0.1)
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD (= 1.1.0)
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa (= 2.0)
+    - SDWebImage
+    - SDWebImage/GIF
+    - SensorsAnalyticsSDK
+    - SSZipArchive
+  - IQKeyboardManager (6.5.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.2.4)
+  - MJRefresh (3.5.0)
+  - ReactiveCocoa (2.0):
+    - ReactiveCocoa/Core (= 2.0)
+    - ReactiveCocoa/no-arc (= 2.0)
+    - ReactiveCocoa/RACExtensions (= 2.0)
+  - ReactiveCocoa/Core (2.0):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.0)
+  - ReactiveCocoa/RACExtensions (2.0):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SDWebImage/GIF (4.4.8):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SensorsAnalyticsSDK (2.3.0):
+    - SensorsAnalyticsSDK/Core (= 2.3.0)
+  - SensorsAnalyticsSDK/Core (2.3.0)
+  - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
   - GFFoundation (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FLAnimatedImage
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   GFFoundation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GFFoundation: 1d2c5930c5cce0a3a40669bad41428eb7fa5e9bc
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FLAnimatedImage: dd3db277b17e909ec3c7fd41adfce79b321d960e
+  GFFoundation: dca09d092375c5e0d4ccfc4209ea459343dc23fa
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveCocoa: c5347d7b1c348d22a85800e14e89da84c5254cfb
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SensorsAnalyticsSDK: 6044f1e2a0c6ed183d94581e5e620bf69594d3ff
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
 PODFILE CHECKSUM: af1f4b6b6a0bf83c35a77916b0b766135b580092
 
