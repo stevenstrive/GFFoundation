@@ -18,13 +18,8 @@
   "platforms": {
     "ios": "11.0"
   },
-  "libraries": [
-    "resolv",
-    "xml2",
-    "sqlite3.0",
-    "c++",
-    "z"
-  ],
+  "static_framework": true,
+  "source_files": "GFFoundation/**/*.{h,m}",
   "frameworks": [
     "UIKit",
     "MapKit"
@@ -63,19 +58,5 @@
     "SSZipArchive": [
 
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Bridge",
-      "source_files": "GFFoundation/Classes/Bridge/*"
-    },
-    {
-      "name": "View",
-      "source_files": "GFFoundation/Classes/View/*"
-    },
-    {
-      "name": "App",
-      "source_files": "GFFoundation/Classes/App/*"
-    }
-  ]
+  }
 }

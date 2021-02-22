@@ -29,22 +29,35 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
-#  s.source_files = 'GFFoundation/Classes/**/*'
+  s.static_framework = true
   
-  s.library           = 'resolv','xml2','sqlite3.0','c++','z'
+  s.source_files = 'GFFoundation/**/*.{h,m}'
   
-  s.subspec 'Bridge' do |ss|
-      ss.source_files = 'GFFoundation/Classes/Bridge/*'
-  end
-
-  s.subspec 'View' do |ss|
-      ss.source_files = 'GFFoundation/Classes/View/*'
-  end
-
-  s.subspec 'App' do |ss|
-      ss.source_files = 'GFFoundation/Classes/App/*'
-  end
+#  s.library           = 'resolv','xml2','sqlite3.0','c++','z'
+  
+#  s.subspec 'Bridge' do |a|
+#      a.source_files = 'GFFoundation/Bridge/*.{h,m}'
+#  end
+#
+#  s.subspec 'Extensions' do |a|
+#      a.source_files = 'GFFoundation/Extensions/*'
+#  end
+#
+#  s.subspec 'Model' do |a|
+#      a.source_files = 'GFFoundation/Model/*'
+#  end
+#
+#  s.subspec 'Network' do |a|
+#      a.source_files = 'GFFoundation/Network/*'
+#  end
+#
+#  s.subspec 'UI' do |a|
+#      a.source_files = 'GFFoundation/UI/*'
+#  end
+#
+#  s.subspec 'Utils' do |a|
+#      a.source_files = 'GFFoundation/Utils/*'
+#  end
   
   # s.resource_bundles = {
   #   'GFFoundation' => ['GFFoundation/Assets/*.png']
@@ -63,4 +76,5 @@ TODO: Add long description of the pod here.
       s.dependency 'MBProgressHUD', '1.1.0'
       s.dependency 'ReactiveCocoa', '2.0'
       s.dependency 'SSZipArchive'
+#      s.dependency 'WechatOpenSDK'
 end

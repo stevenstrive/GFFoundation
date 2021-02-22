@@ -17,45 +17,6 @@ PODS:
   - FLAnimatedImage (1.0.15)
   - GFFoundation (0.2.0):
     - AFNetworking (= 4.0.1)
-    - GFFoundation/App (= 0.2.0)
-    - GFFoundation/Bridge (= 0.2.0)
-    - GFFoundation/View (= 0.2.0)
-    - IQKeyboardManager
-    - Masonry
-    - MBProgressHUD (= 1.1.0)
-    - MJExtension
-    - MJRefresh
-    - ReactiveCocoa (= 2.0)
-    - SDWebImage
-    - SDWebImage/GIF
-    - SensorsAnalyticsSDK
-    - SSZipArchive
-  - GFFoundation/App (0.2.0):
-    - AFNetworking (= 4.0.1)
-    - IQKeyboardManager
-    - Masonry
-    - MBProgressHUD (= 1.1.0)
-    - MJExtension
-    - MJRefresh
-    - ReactiveCocoa (= 2.0)
-    - SDWebImage
-    - SDWebImage/GIF
-    - SensorsAnalyticsSDK
-    - SSZipArchive
-  - GFFoundation/Bridge (0.2.0):
-    - AFNetworking (= 4.0.1)
-    - IQKeyboardManager
-    - Masonry
-    - MBProgressHUD (= 1.1.0)
-    - MJExtension
-    - MJRefresh
-    - ReactiveCocoa (= 2.0)
-    - SDWebImage
-    - SDWebImage/GIF
-    - SensorsAnalyticsSDK
-    - SSZipArchive
-  - GFFoundation/View (0.2.0):
-    - AFNetworking (= 4.0.1)
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD (= 1.1.0)
@@ -115,7 +76,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FLAnimatedImage: dd3db277b17e909ec3c7fd41adfce79b321d960e
-  GFFoundation: 3690d4921575ea440ca2083d47a0811cb2895c53
+  GFFoundation: 2040b0d58b19ce9cc476086749b2e3effaa7a375
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
