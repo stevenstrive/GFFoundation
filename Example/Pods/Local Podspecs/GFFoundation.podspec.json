@@ -1,6 +1,6 @@
 {
   "name": "GFFoundation",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A short description of GFFoundation.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/stevenstrive/Specs",
@@ -13,13 +13,12 @@
   },
   "source": {
     "git": "https://github.com/stevenstrive/GFFoundation.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "static_framework": true,
-  "source_files": "GFFoundation/**/*.{h,m}",
+  "source_files": "GFFoundation/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"
@@ -58,5 +57,31 @@
     "SSZipArchive": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Bridge",
+      "source_files": "GFFoundation/Bridge/*.{h,m}"
+    },
+    {
+      "name": "Extensions",
+      "source_files": "GFFoundation/Extensions/*"
+    },
+    {
+      "name": "Model",
+      "source_files": "GFFoundation/Model/*"
+    },
+    {
+      "name": "Network",
+      "source_files": "GFFoundation/Network/*"
+    },
+    {
+      "name": "UI",
+      "source_files": "GFFoundation/UI/*"
+    },
+    {
+      "name": "Utils",
+      "source_files": "GFFoundation/Utils/*"
+    }
+  ]
 }

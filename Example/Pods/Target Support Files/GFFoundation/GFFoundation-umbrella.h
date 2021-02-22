@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NEFoundation.h"
 #import "WebViewJavascriptBridgeBase.h"
 #import "WebViewJavascriptBridge_JS.h"
 #import "WKWebViewJavascriptBridge.h"
@@ -38,7 +39,6 @@
 #import "NEErrorModel.h"
 #import "NEResponseObject.h"
 #import "NEUserInterface.h"
-#import "NEFoundation.h"
 #import "NEAPI.h"
 #import "NEAPIDefine.h"
 #import "NEAPIExtensions.h"

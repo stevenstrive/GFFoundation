@@ -29,41 +29,41 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-  s.static_framework = true
+#  s.static_framework = true
   
-  s.source_files = 'GFFoundation/**/*.{h,m}'
+  s.source_files = 'GFFoundation/NEFoundation.h'
   
 #  s.library           = 'resolv','xml2','sqlite3.0','c++','z'
   
-#  s.subspec 'Bridge' do |a|
-#      a.source_files = 'GFFoundation/Bridge/*.{h,m}'
-#  end
-#
-#  s.subspec 'Extensions' do |a|
-#      a.source_files = 'GFFoundation/Extensions/*'
-#  end
-#
-#  s.subspec 'Model' do |a|
-#      a.source_files = 'GFFoundation/Model/*'
-#  end
-#
-#  s.subspec 'Network' do |a|
-#      a.source_files = 'GFFoundation/Network/*'
-#  end
-#
-#  s.subspec 'UI' do |a|
-#      a.source_files = 'GFFoundation/UI/*'
-#  end
-#
-#  s.subspec 'Utils' do |a|
-#      a.source_files = 'GFFoundation/Utils/*'
-#  end
+  s.subspec 'Bridge' do |a|
+      a.source_files = 'GFFoundation/Bridge/*.{h,m}'
+  end
+
+  s.subspec 'Extensions' do |a|
+      a.source_files = 'GFFoundation/Extensions/*.{h,m}'
+  end
+
+  s.subspec 'Model' do |a|
+      a.source_files = 'GFFoundation/Model/*.{h,m}'
+  end
+
+  s.subspec 'Network' do |a|
+      a.source_files = 'GFFoundation/Network/*.{h,m}'
+  end
+
+  s.subspec 'UI' do |a|
+      a.source_files = 'GFFoundation/UI/*.{h,m}'
+  end
+
+  s.subspec 'Utils' do |a|
+      a.source_files = 'GFFoundation/Utils/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'GFFoundation' => ['GFFoundation/Assets/*.png']
   # }
 
-#  s.public_header_files = 'GFFoundation/Classes/NEFoundation.h'
+#  s.public_header_files = 'GFFoundation/*.h'
       s.frameworks = 'UIKit', 'MapKit'
       s.dependency 'MJExtension'
       s.dependency 'SDWebImage'
